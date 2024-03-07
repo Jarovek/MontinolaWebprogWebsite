@@ -444,6 +444,91 @@
   }
 }
 
+.form-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Change text color to white */
+  padding: 20px; /* Add padding to create space between content and border */
+  background-color: #f77062; /* Change background color to pink */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+}
+
+.form-control {
+  color: #fff; /* Change text color to white */
+  background-color: rgba(255, 255, 255, 0.2); /* Add a semi-transparent white background for better readability */
+  padding: 10px; /* Add padding for input fields */
+  border: none; /* Remove default input border */
+  border-radius: 4px; /* Add border-radius for rounded corners */
+  margin-bottom: 10px; /* Add margin bottom for spacing between input fields */
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #ff9ff3; /* Pink color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add some shadow for depth */
+}
+
+/* Add other styles for the form fields as needed */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control::placeholder {
+  color: #fff; /* Change placeholder text color to white */
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Add border-radius for rounded corners */
+  background: #4837ff; /* Change button background color */
+  color: #fff; /* Change button text color to white */
+  transition: background-color 0.3s ease; /* Add transition for hover effect */
+}
+
+.btn:hover {
+  background: #6757ff; /* Change button background color on hover */
+}
+
+.form-btn {
+  text-align: center;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #f77062;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4837ff;
+}
+
+.form-control {
+  color: #cf556c;
+}
+
 footer {
   background-color: #141414;
   margin: 0;

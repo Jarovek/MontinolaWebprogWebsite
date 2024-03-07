@@ -1,0 +1,72 @@
+body {
+    background: #141414;
+    font-family: 'Tektur', sans-serif; /* Use the Tektur font */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-box {
+    background: #141414;
+    border: 1px solid #de3d5d;
+    padding: 20px; /* Adjust the padding as needed */
+    width: 90%; /* Adjust the width as needed */
+    height: 96%;
+    max-width: 400px;
+    min-width: 400px; /* Set a maximum width for larger screens */
+    margin: 50px auto; /* Center the box horizontally and provide vertical margin */
+    color: #ffffff; /* Text color */
+    top: 50px; /* Add top spacing */
+}
+
+/* Set a fixed width for form elements */
+.registration-box form {
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the form within the registration box */
+}
+
+.form-group {
+    margin-bottom: 10px; /* Adjust the margin between form groups as needed */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: calc(100%); /* Adjust the width of the inputs */
+    padding: 7px; /* Adjust the padding as needed */
+    margin: 10px 0; /* Adjust the margin as needed */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #de3d5d; /* Button color */
+    color: #ffffff; /* Button text color */
+    padding: 10px 15px; /* Adjust the padding as needed */
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4a235a; /* Hover color */
+}
+
+a {
+    color: #de3d5d; /* Link color */
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
